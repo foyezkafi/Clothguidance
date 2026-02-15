@@ -1,0 +1,9 @@
+/* Mobile devices (phones) */
+@media (max-width: 576px) {
+.main_name h1 {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-left: 63px;
+}
+
+}
