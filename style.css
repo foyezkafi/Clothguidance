@@ -1596,3 +1596,120 @@ a.btn-link.text-light:after {
 }
 
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* SECTION */
+.product-section{
+    max-width:1200px;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap:25px;
+}
+
+/* CARD */
+.product-card{
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* IMAGE */
+.img-box{
+    position:relative;
+}
+
+.img-box img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+/* BADGE */
+.badge{
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:#ff3b3b;
+    color:#fff;
+    padding:4px 10px;
+    font-size:12px;
+    border-radius:5px;
+}
+
+/* TITLE */
+.product-card h3{
+    font-size:15px;
+    margin:15px 0;
+}
+
+/* PRICE */
+.price{
+    margin-bottom:15px;
+}
+
+.price .new{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.price .old{
+    margin-left:8px;
+    color:red;
+    text-decoration:line-through;
+    font-size:14px;
+}
+
+/* BUTTONS */
+.btn-group{
+    display:flex;
+    gap:10px;
+}
+
+.btn-group a button{
+    flex:1;
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.shop{
+    background:#0d1b2a;
+    color:white;
+}
+
+.cart{
+    background:#e5e7eb;
+}
+
+.shop:hover{
+    background:#000;
+}
+
+.cart:hover{
+    background:#d1d5db;
+}
+.btn-group a button {
+    margin-left: 71px;
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}

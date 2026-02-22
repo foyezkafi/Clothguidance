@@ -5,5 +5,53 @@
     margin-top: 24px;
     margin-left: 63px;
 }
+.btn-group {
+    margin-left: 67px;
+    display: flex;
+    gap: 10px;
+}
 
+.img-box img {
+    width: 82%;
+    height: 338px;
+ 
+}
+.badge {
+   
+    right: 33px;
+
+}
+
+
+
+a.btn-link {
+    margin-top: 17px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.image-zoom-effect img {
+    margin-left: 20px;
+  
+
+}
+
+.my-5 {
+    margin-left: 10px;
+  
+}
+.text-uppercase {
+    margin-top: 18px;
+    margin-left: 47px;
+}
+
+.footer_text a h2 {
+    margin-top: -88px;
+    font-size: 30px;
+}
+img, svg {
+    width: 400px;
+    height: 219px;
+    vertical-align: middle;
+}
 }
